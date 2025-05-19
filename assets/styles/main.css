@@ -2,6 +2,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+/* Subscribe button */
 .subscribe-btn {
   background-color: #3498db;
   padding: 10px 15px;
