@@ -1,9 +1,27 @@
 body {
   font-family: Arial, sans-serif;
 }
+
 header {
   margin-top: 20px;
 }
 
 .footer { padding: 20px; }
 .footer a { color: #ccc; }
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+/* Subscribe button */
+.subscribe-btn {
+  background-color: #3498db;
+  padding: 10px 15px;
+  color: white;
+}
+.subscribe-btn:hover {
+  background-color: #2980b9;
+}
+
